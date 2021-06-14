@@ -1,0 +1,103 @@
+* {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight:bold;
+	font-size: 125px;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 75px;
+}
+p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+}
+
+h4 {
+	font-size: 45px;
+	color: #523795;
+	font-family: 'Oswald', sans-serif;
+}
+
+#age, #gender, #nationality {
+	font-size: 45px;
+	color:black;
+	font-family: 'Oswald', sans-serif;
+}
+/* unvisited link */
+a:link {
+  color: #523795;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  object-fit:cover;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+
+input[type=text] {
+  width: 30%;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 35px;
+  background-color: white;
+  background-position: 10px 10px; 
+  padding: 7px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 90%;
+  color: #523795;
+}
+
+button {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 25px 50px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5%;
+	margin-left: 5%;
+	font-size: 30px;
+	text-transform: uppercase;
+	background-color: black;
+	font-family: 'Oswald', sans-serif;
+	cursor:pointer;
+	border-radius: 4px;
+}
+
+button:hover {
+	background-color: #523795;
+	transition: all 0.3s ease-in;
+	color: white;
+}
+
+@media (max-width: 600px) {
+	h1 {
+		font-size:100px;
+	}
+	input[type=text] {
+	width:50%;
+	font-size: 20px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="description" content="Random Character Generator" />
+    <title>Random Character API</title>
+
+    <!-- include an external style sheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- include an external JavaScript file -->
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <br />
+    <br />
+    <h1>Random Character Generator!</h1>
+    <h2>how does this generator work?</h2>
+    <p>
+      All you have to do is enter in a single name (no last names or keyboard
+      smashes, please), and the generator will give you a list of things about
+      your character in return. <br />
+      To start, simply <strong> enter a name down below </strong>
+    </p>
+
+    <input type="text" id="search" /> <br />
+    <button id="button" onclick="fetchData()">Generate Information</button>
+    <br />
+    <button id="button2" onclick="window.location.reload();">Restart</button>
+    <br /><br />
+
+    <div id="image"></div>
+    <div id="age"></div>
+    <div id="gender"></div>
+    <div id="nationality"></div>
+    <div id="info"></div>
+    <br />
+    <br />
+
+    <br />
+    <br />
+    <h3>Note</h3>
+    <p>
+      Please be aware that all characters are randomly generated, and thus
+      enitrely fictional. Any resemblance to real people is coincidental.
+      Information generated from <br />
+      <a href="https://randomuser.me/"> Random User Generator API, </a> <br />
+      <a href="https://agify.io/"> Agify.io, </a> <br />
+      <a href="https://genderize.io/"> Genderize.io </a> <br />
+      <a href="https://nationalize.io/"> Nationalize.io </a> <br />
+      icons made by
+      <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </p>
+    <br /><br /><br />
+  </body>
+</html>
